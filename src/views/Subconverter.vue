@@ -831,6 +831,9 @@ export default {
     this.isPC = this.$getOS().isPc;
   },
   mounted() {
+    if (this.getUrlParam() === "") {
+      this.form.customBackend = "https://api.ozero.top";
+    }
     //this.tanchuang();
     this.form.clientType = "clash";
     this.getBackendVersion();
