@@ -782,7 +782,7 @@ export default {
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://api.ozero.top" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
+        remoteConfig: "https://raw.githubusercontent.com/Ozero-top/OpenClash-Config/refs/heads/main/Clash/config/Full-Featured-Optimization.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
