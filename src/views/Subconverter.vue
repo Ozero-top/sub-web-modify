@@ -347,6 +347,15 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "默认规则",
+            options: [
+              {
+                label: "Full-Featured-Optimization（全功能优化版）",
+                value: "https://raw.githubusercontent.com/Ozero-top/OpenClash-Config/refs/heads/main/Clash/config/Full-Featured-Optimization.ini"
+              }
+            ]
+          },
+          {
             label: "CM规则",
             options: [
               {
