@@ -330,14 +330,16 @@ export default {
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
-          "本站提供-负载均衡后端": "https://api.ozero.top",
-          "CM提供-负载均衡后端": "https://subapi.cmliussss.net",
-          "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
-          "肥羊提供-增强型后端": "https://url.v1.mk",
-          "肥羊提供-备用后端": "https://api.v1.mk",
+          "本站提供-负载均衡后端（订阅内容会发送至此）": "https://api.ozero.top",
+          "asailor提供-负载后端（订阅内容会发送至此）": "https://api.asailor.org",
+          "CM提供-负载均衡后端（订阅内容会发送至此）": "https://subapi.cmliussss.net",
+          "CM提供-应急备用后端（订阅内容会发送至此）": "https://subapi.fxxk.dedyn.io",
+          "肥羊提供-增强型后端（订阅内容会发送至此）": "https://url.v1.mk",
+          "肥羊提供-备用后端（订阅内容会发送至此）": "https://api.v1.mk",
         },
         backendOptions: [
           { value: "https://api.ozero.top" },
+          { value: "https://api.asailor.org" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -347,6 +349,10 @@ export default {
           {
             label: "CM规则",
             options: [
+              {
+                label: "默认Full-Featured-Optimization（全功能优化版）",
+                value: "https://raw.githubusercontent.com/Ozero-top/OpenClash-Config/refs/heads/main/Clash/config/Full-Featured-Optimization.ini"
+              },
               {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
