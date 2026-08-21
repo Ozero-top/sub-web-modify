@@ -359,10 +359,6 @@ export default {
             label: "CM规则",
             options: [
               {
-                label: "默认Full-Featured-Optimization（全功能优化版）",
-                value: "https://raw.githubusercontent.com/Ozero-top/OpenClash-Config/refs/heads/main/Clash/config/Full-Featured-Optimization.ini"
-              },
-              {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
               },
